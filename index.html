@@ -8,10 +8,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  tr: table row: fila de tabla
+  <form action="" id="formulario">
+    <label for="nombre">Nombre
+      <input type="text" name="nombre" id="input-nombre">
+    </label>
+    <label for="email">Email
+      <input type="email" name="email" id="input-email">
+    </label>
+    <label for="direccion">Direccion
+      <input type="text" name="direccion" id="input-direccion">
+    </label>
+    <label for="tel">Telefono
+      <input type="phone" name="tel" id="input-tel">
+    </label>
+    <input type="submit" value="Enviar" id="input-enviar">
+  </form>
+
+ <!-- formulario editar usuario -->
+  <form id="form-editar" class="form-editar">
+    <label>Nombre
+    <input type="text" id="editar-nombre" value="">
+  </label>
+  <label>Email
+    <input type="email" id="editar-email">
+  </label>
+  <label>Telefono
+    <input type="number" id="editar-telefono">
+  </label>
+  <label>Direccion
+    <input type="text" id="editar-direccion">
+  </label>
+  <input type="submit" value="Editar" id="boton-usuario-editado">
+  </form>
+  <!-- tr: table row: fila de tabla
   th: table header: encabezado de tabla
-  td: tabla data: datos de la tabla
+  td: tabla data: datos de la tabla -->
   <table class="tabla-usuarios" id="tabla">
     
    
